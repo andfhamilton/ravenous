@@ -28,7 +28,7 @@ function BusinessList() {
           },
         ];
     return (
-        <div className={styles.BusinessList}>
+        <div className={styles.BusinessList}>          
             {businesses.map((business, index) => (
                     <Business key={index} business={business} />  ))}
         </div>
