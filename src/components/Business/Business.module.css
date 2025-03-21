@@ -13,11 +13,11 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    background: #000;
   }
   
   .imageContainer img {
-    width: 100%;
+    max-width: 100%;
+    border-radius: 10% 3%;
   }
   
   .Business h2 {
@@ -25,6 +25,7 @@
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     font-weight: 600;
+    color: #cc536f;
   }
   
   .BusinessInformation {
@@ -57,7 +58,7 @@
   }
   
   .BusinessReviews h3 {
-    color: #e77e55;
+    color: #b41743;
     font-weight: 600;
   }
   
