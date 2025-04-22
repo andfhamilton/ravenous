@@ -1,7 +1,10 @@
 import React from 'react';
 import styles from "./Business.module.css";
 
-function Business({business}) {
+const Business = ({business}) => {
+  if (!business) {
+    return <div>Business data not available</div>;
+  }
   return (
     <div className={styles.Business}>
       <div className={styles.imageContainer}>
